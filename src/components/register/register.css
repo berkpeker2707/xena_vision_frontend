@@ -1,0 +1,104 @@
+#registerOuterComponent {
+  width: 480px;
+  height: 578px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  opacity: 0.95;
+  box-shadow: rgb(0 0 0 / 15%) 0px 0px 10px 1px;
+}
+
+#emailGroup {
+  position: relative;
+  margin: auto;
+  width: 200px !important;
+}
+
+#passwordGroup {
+  position: relative;
+  margin: auto;
+  width: 200px;
+}
+
+#registerComponentH2 {
+  padding-top: 100px;
+}
+
+#inputEmailRegister,
+#inputPasswordRegister {
+  border: none;
+  border-bottom: 2px solid rgb(150, 139, 134);
+  padding-top: 5px;
+}
+#inputEmailRegister:focus,
+#inputPasswordRegister:focus {
+  outline: 3px solid transparent;
+  caret-color: #43bbe9;
+}
+
+#emailGroup {
+  padding-top: 35px;
+}
+
+#passwordGroup {
+  padding-top: 35px;
+}
+
+#staylogged {
+  display: block;
+  position: relative;
+  user-select: none;
+}
+
+#stayloggedInput {
+  position: absolute;
+  cursor: pointer;
+  right: 80px;
+  top: 22px;
+  height: 19px;
+}
+
+#stayloggedLabel {
+  position: absolute;
+  top: 22px;
+  left: 0;
+}
+
+#registerLink {
+  color: white;
+  text-decoration: none;
+  background-color: #3ab8e8;
+  padding: 10px;
+  padding-inline: 50px !important;
+  border-radius: 16px;
+  top: 127px !important;
+  position: relative;
+  border: 1px #3ab8e8;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 1px;
+}
+
+#loginLink {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  top: 100px !important;
+  position: relative;
+  border: 1px #3ab8e8;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 1px;
+}
+
+#registerLink:hover {
+  color: #3ab8e8;
+  background-color: white;
+  transition: 0.7s;
+}
+
+#loginLink:hover {
+  color: white;
+  background-color: #3ab8e8;
+  transition: 0.7s;
+}

@@ -1,0 +1,68 @@
+.headerComponent {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerLogo {
+  justify-content: start;
+}
+
+ul.headerList {
+  display: flex;
+  list-style-type: none;
+  align-content: center;
+  margin-left: auto;
+  padding-right: 130px;
+}
+
+.headerList li {
+  margin: auto;
+}
+
+.headerList li:hover {
+  font-weight: bold;
+  color: #43bbe9;
+  transition: 0.1;
+}
+
+.headerLoginButton {
+  color: #43bbe9;
+  font-weight: bold;
+  border: 1px solid #43bbe9;
+  border-radius: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow: auto !important;
+}
+
+.headerLoginButton:hover {
+  color: white !important;
+  background-color: #43bbe9;
+  transition: 0.1s;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+li {
+  color: black;
+}
+
+.showBackgroundImage {
+  overflow: hidden;
+}
+
+.showBackgroundImage img {
+  transition: 0.9s ease-in-out;
+}
+
+.showBackgroundImage:hover img {
+  filter: brightness(100%);
+  transform: scale(1.5);
+}

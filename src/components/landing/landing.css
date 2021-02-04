@@ -1,0 +1,141 @@
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3ab8e8;
+}
+
+.showBackgroundImage {
+  background-image: linear-gradient(to right, rgb(0, 25, 55), rgb(24, 87, 111));
+  color: white;
+}
+
+.showBackgroundImage2 {
+  background-image: radial-gradient(#003d6a);
+}
+
+.backgroundImage1 {
+  opacity: 0.2;
+}
+
+.backgroundImage2 {
+  opacity: 1;
+}
+
+.landingTexts {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.landingSecondTexts {
+  position: absolute;
+  top: 155%;
+  text-align: center;
+}
+
+.inputLanding {
+  width: fit-content;
+  border: 1px rgb(253, 255, 232);
+  border-radius: 16px;
+  padding: 7px;
+  margin-top: 5px;
+  height: 39px;
+}
+
+.inputLanding:focus {
+  transition: 0.7s;
+}
+.landingEmailSubmit {
+  position: absolute;
+  color: black;
+  left: 54%;
+  width: fit-content;
+  border: 1px #ccc;
+  border-radius: 0px 16px 16px 0px;
+  padding: 7px;
+  height: 39px;
+  margin-top: 5px;
+  font-weight: 600 !important;
+  background: #3ab8e8;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.landingH1 {
+}
+
+.landingH2 {
+  letter-spacing: 2px;
+  line-height: normal;
+}
+
+.landingLink {
+  color: white;
+  text-decoration: none;
+  background-color: #3ab8e8;
+  padding: 10px;
+  padding-inline: 30px;
+  border-radius: 16px;
+  top: 20px;
+  position: relative;
+  border: 1px #3ab8e8;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 1px;
+}
+
+.landingLink:hover {
+  color: #3ab8e8;
+  background-color: white;
+  transition: 0.7s;
+}
+
+.ourServicesImg1,
+.ourServicesImg2,
+.ourServicesImg3 {
+  border: 1px solid #3ab8e8;
+  border-radius: 50%;
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.ourServicesh {
+  padding-top: 15px;
+  opacity: 0.8;
+}
+
+.ourServicesP {
+  width: 75%;
+  padding-top: 10px;
+  margin: auto;
+  opacity: 0.6;
+}
+
+.landingBlogH2 {
+  opacity: 0.8;
+}
+
+.landingBlogH5 {
+  font-weight: bold;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  opacity: 0.6;
+}
+
+.landingBlogP {
+  opacity: 0.6;
+}

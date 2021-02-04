@@ -1,0 +1,53 @@
+.video {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px 1px;
+  border-radius: 20px;
+}
+
+.dashboardComponent {
+  text-align: center;
+  width: 100%;
+}
+
+.innerVideoBoxes {
+  display: flex;
+  width: fit-content;
+  margin: auto;
+}
+
+.videoPar {
+  display: flex;
+}
+
+.videoSingle1 {
+  margin-right: 15px;
+}
+
+.videoSingle2 {
+  margin-left: 15px;
+}
+
+.videoBoxes {
+  padding-top: 30px;
+}
+
+.videoSinglePar {
+  text-align: left;
+  width: 40%;
+  padding: 5px;
+  opacity: 0.8;
+  font-weight: 600;
+}
+
+.graph1InnerBox,
+.graph2InnerBox,
+.graph3InnerBox,
+.graph4InnerBox {
+  margin: auto;
+  width: 40%;
+}
+
+#graph {
+  border-radius: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

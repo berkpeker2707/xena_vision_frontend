@@ -1,0 +1,26 @@
+.contactForm {
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px #3ab8e8;
+  padding: 30px;
+  box-shadow: rgb(0 0 0 / 50%) 0px 0px 10px 1px;
+  border-radius: 6px;
+}
+
+.contactInputName,
+.contactInputEmail,
+.contactInputSubmit {
+  margin-bottom: 15px;
+}
+
+.contactInputSubmit {
+  background-color: #3ba2c9;
+  color: white;
+}
+
+.contactInputSubmit:hover {
+  background-color: white;
+  color: #3ba2c9;
+}

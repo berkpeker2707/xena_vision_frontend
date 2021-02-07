@@ -6,15 +6,6 @@ const BlogTile = (props) => {
   function blogPost() {
     return (
       <div>
-        <h1
-          style={{
-            textAlign: "center",
-            paddingTop: "50px",
-            paddingBottom: "30px",
-          }}
-        >
-          Xena Vision Blog
-        </h1>
         <div className="landingBlogOuter" style={{ display: "flex" }}>
           <div
             className="blogImageOuter"

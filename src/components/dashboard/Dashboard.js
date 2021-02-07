@@ -12,6 +12,12 @@ export default function Dashboard() {
     <div className="dashboardComponent">
       <h1>Dashboard</h1>
       <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+      {/*Burası başlangıç video*/}
+      {/************************/}
+      {/************************/}
+      {/************************/}
+      {/************************/}
+      {"Burası başlangıç video"}
       <div className="videoBoxes">
         <div className="innerVideoBoxes">
           <div className="videoSingle1">
@@ -40,12 +46,46 @@ export default function Dashboard() {
           </div>
         </div>
       </div>
+      <div className="videoBoxes">
+        <div className="innerVideoBoxes">
+          <div className="videoSingle1">
+            <h2>01</h2>
+            <img className="video" src={video1} alt="video1" />
+            <div className="videoPar">
+              <p className="videoSinglePar" style={{ color: "#20BEB1" }}>
+                Total People: 2
+              </p>
+              <p className="videoSinglePar" style={{ color: "#B71616" }}>
+                Total Violation: 1
+              </p>
+            </div>
+          </div>
+          <div className="videoSingle2">
+            <h2>02</h2>
+            <img className="video" src={video2} alt="video1" />
+            <div className="videoPar">
+              <p className="videoSinglePar" style={{ color: "#20BEB1" }}>
+                Total People: 2
+              </p>
+              <p className="videoSinglePar" style={{ color: "#B71616" }}>
+                Total Violation: 1
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*Burası bitiş video*/}
+      {/********************/}
+      {/********************/}
+      {/********************/}
+      {/********************/}
+      {/*Burası bitiş video*/}
       <hr />
       <h2>How Many People Enters</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <div className="graph1OuterBox">
         <div className="graph1InnerBox">
-          <img className="graph1" id="graph" src={mockGraph1} alt="graph1" />
+          <img className="graph1" id="graph" src={mockGraph2} alt="graph1" />
         </div>
       </div>
       <hr />

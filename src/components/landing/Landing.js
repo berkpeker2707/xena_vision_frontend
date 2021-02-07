@@ -24,7 +24,7 @@ const Landing = () => {
   function displayBlogs() {
     return (
       myBlog.items &&
-      myBlog.items.map((blog) => {
+      myBlog.items.slice(0, 3).map((blog) => {
         return (
           blog.categories.length > 0 && (
             <BlogTile key={blog.pubDate} blogData={blog} />
@@ -143,6 +143,15 @@ const Landing = () => {
         className="landingBlog"
         style={{ overflow: "auto", height: "488px", paddingBottom: "20px" }}
       >
+        <h1
+          style={{
+            textAlign: "center",
+            paddingTop: "50px",
+            paddingBottom: "30px",
+          }}
+        >
+          Xena Vision Blog
+        </h1>
         {displayBlogs()}
       </div>
     </div>

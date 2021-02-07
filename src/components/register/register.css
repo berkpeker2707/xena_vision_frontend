@@ -1,6 +1,6 @@
 #registerOuterComponent {
-  width: 480px;
-  height: 578px;
+  width: 380px;
+  height: 478px;
   margin: auto;
   text-align: center;
   border: 1px solid whitesmoke;
@@ -75,7 +75,7 @@
   padding: 10px;
   padding-inline: 50px !important;
   border-radius: 16px;
-  top: 127px !important;
+  top: 65px !important;
   position: relative;
   border: 1px #3ab8e8;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px 1px;
